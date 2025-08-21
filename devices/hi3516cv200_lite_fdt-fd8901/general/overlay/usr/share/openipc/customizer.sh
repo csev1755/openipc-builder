@@ -6,7 +6,7 @@
 # Set custom upgrade url
 #
 fw_setenv upgrade 'https://github.com/OpenIPC/builder/releases/download/latest/hi3516cv200_lite_fdt-fd8901-nor.tgz'
-fw_setenv soc hi2516cv200
+fw_setenv soc hi3516cv200
 fw_setenv sensor sc2135
 #
 # Set custom majestic settings
