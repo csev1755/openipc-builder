@@ -34,12 +34,12 @@ G.Craftsman GCA50        T31ZX        GC4653    -                NOR_16M   done
 EC37-T11                 T20L         SC2232    RTL8188FU_USB    MOR_16M   in progress
 H3C TC2101               SSC337       JXQ03     RTL8188FU_USB    NOR_16M   done
 HB-WIFI-Z6 v1.2          T10          JXH62     RTL8188EU_USB    NOR_8M    in progress
-iFlytek XFP301-M         T31ZX        JXQ03     RTL8188FU_USB    NOR_?     research
+iFlytek XFP301-M         T31ZX        JXQ03     RTL8188FU_USB    NOR_16    research
 Imilab EC3 CMSXJ25A      SSC325       GC2053    MT7603UN_?       NOR_16M   in progress
 Imou IPC-C22E-S2-v2      SSC335DE     GC2053    RTL8188FU_USB    NOR_16M   done
 Imou IPC-C22EP-S2        SSC325DE     SC2239    RTL8188FU_USB    NAND      testing stage 1
 Imou IPC-C22EP-S2 ?      SSC325DE     SC2335    RTL8188FU_USB    NAND      wait driver
-Imou IPC-F22AP           SSC325       SC2239    -                NOR_?     preparation
+Imou IPC-С22СP           SSC325       SC2239    RTL8188FU_USB    NOR_8M    in progress
 JVS INGT10 GQS60EP       T10A         OV9750    -                NOR_8M    done
 Lenovo Snowman 1080P     HI3518EV200  SC2035    RTL8188EUS_USB   NOR_16M   in progress, LightSensor-no
 Meari Speed 6S           SSC333       JXF37     RTL8188FU_USB    NOR_16M   video-yes, wifi-yes, motors-no
@@ -63,6 +63,7 @@ TP-Link Tapo C110 v1     SSC337       SC3335    SSW101B_USB      NOR_8M    done
 TP-Link Tapo C110 v2     SSC333       SC3338    SSW101B_USB      NOR_8M    done
 TP-Link Tapo C110 v26    SSC333       ?         ?                NOR_?     done
 TP-Link Tapo C310 v1     SSC325       SC3335    RTL8192EU_USB    NOR_8M    in progress
+TP-Link Tapo TC70 V3     T31L         SC2336    RTL8188FU_USB    NOR_8M    done
 Trassir TR-D4121IR1 v2   HI3516CV200  AR0237    -                NOR_16M   done
 Trassir TR-W2C1 v1       SSC325       GC2053    MT7601U_USB      NOR_16M   done
 Trassir TR-W2C1 v2       SSC335       GC2053    MT7601U_USB      NOR_16M   done
@@ -100,9 +101,13 @@ Many devices sold in online stores are clones of original devices or, more often
 ```
 Model names                            Our firmware
 
+Dahua IPC-C22C-LC               =>     Imou IPC-С22CP
+Imou IPC-С22EP-A                =>     Imou IPC-С22CP
+Imou IPC-F22AP                  =>     Imou IPC-С22CP
 Switcam HS303 v3                =>     Qtech QVC-IPC-136W
 Tiandy TC-C320N                 =>     Tiandy TC-C321N
 Tiandy TC-C320N v2              =>     Tiandy TC-C321N v2
+TP-Link Tapo C110 v2.20         =>     TP-Link Tapo C110 v2
 Rostelecom IPC8232SWC-WE-B      =>     Uniview C1L-2WN-G
 Rostelecom IPC C22E-S2 v2       =>     Imou IPC-C22E-S2-v2
 Uniview C1L-2WN-G-RU            =>     Uniview C1L-2WN-G
